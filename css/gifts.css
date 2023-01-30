@@ -1,0 +1,496 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&family=Roboto:wght@100;400;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "poppins", sans-serif;
+}
+/* 
+section {
+  overflow: visible;
+  height: auto;
+} */
+
+/* -----HEADER & NAV-------- */
+.nav-header {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.b-logo {
+  padding: 2em;
+  text-decoration: none;
+  color: black;
+  font-family: "poppins", sans-serif;
+  font-size: 1.65em;
+  font-weight: bold;
+  letter-spacing: 0.25em;
+}
+
+.nav-ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1em;
+  margin-top: 0;
+  gap: 3em;
+  font-size: 1.05em;
+  font-weight: 450;
+  font-family: "poppins", sans-serif;
+}
+
+.list-item {
+  list-style: none;
+}
+
+.list-item a {
+  text-decoration: none;
+  color: black;
+}
+
+.list-item a:hover {
+  text-decoration: underline;
+}
+
+.nav-button {
+  background-color: hsla(0, 100%, 40%, 0.8);
+  padding: 1em;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+.nav-button:hover {
+  background-color: hsla(0, 100%, 40%, 1);
+}
+
+/* -----END OF HEADER & NAV-------- */
+
+/* -----START OF GIFT HERO SECTION-------- */
+
+.gift-hero-section {
+  background-image: url(/img/gift-hero-img.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  text-align: center;
+}
+
+.gift-hero-section h3 {
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.gift-hero-section p {
+  font-weight: 500;
+}
+
+/* -----END OF GIFT HERO SECTION-------- */
+
+/* -----START OF GIFT TYPE CONTAINER SECTION-------- */
+
+.gift-type-container-section {
+  background-color: hsl(0, 0%, 96%);
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.gift-type-container {
+  display: flex;
+  flex-direction: column;
+  width: 82%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gift-type-container img {
+  width: 100%;
+  height: 10em;
+  object-fit: cover;
+}
+
+.gift-type-container1,
+.gift-type-container2,
+.gift-type-container3,
+.gift-type-container4,
+.gift-type-container5 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5em;
+  margin: 1em;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+}
+
+.gift-type-container1 div,
+.gift-type-container2 div,
+.gift-type-container3 div,
+.gift-type-container4 div,
+.gift-type-container5 div {
+  background-color: hsl(0, 0%, 99%);
+}
+
+/* .gift-type-container1 div:hover{
+    border: 1px solid hsla(0, 100%, 40%, 0.8);
+} */
+
+.text {
+  padding: 0.8em;
+}
+
+.text h4 {
+  font-size: 1.2em;
+  font-weight: 500;
+  padding-bottom: 1em;
+}
+
+.text p {
+  padding-bottom: 1em;
+}
+
+.price {
+  color: hsla(0, 100%, 40%, 0.8);
+}
+
+.text .price {
+  color: hsla(0, 100%, 40%, 0.8);
+}
+
+.text button {
+  background-color: hsl(0, 0%, 99%);
+  width: 100%;
+  padding: 1em;
+  border: 1px solid hsla(0, 100%, 40%, 0.8);
+  color: hsla(0, 100%, 40%, 0.8);
+  font-weight: bold;
+}
+
+.text button:hover {
+  color: #fff;
+  background-color: hsla(0, 100%, 40%, 0.8);
+}
+
+/* -----END OF GIFT TYPE CONTAINER SECTION-------- */
+
+/* -----START OF GIFT CARD CONTAINER SECTION-------- */
+
+.gift-card-section {
+  background-color: hsl(0, 0%, 96%);
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.gift-card-container {
+  background-color: hsl(0, 0%, 99%);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 82%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding: 1em;
+}
+
+.gift-card-section img {
+  width: 24em;
+  height: 12em;
+  object-fit: cover;
+}
+
+.gift-card-text-div {
+  width: 50%;
+}
+
+.gift-card-text-div h4 {
+  font-size: 1.5em;
+  font-weight: 500;
+}
+
+.gift-card-text-div p {
+  padding-bottom: 1em;
+  font-size: 0.9em;
+}
+
+.gift-card-text-div a {
+  text-decoration: none;
+  color: hsla(0, 100%, 40%, 0.8);
+}
+
+.gift-card-text-div button {
+  background-color: hsl(0, 0%, 99%);
+  width: 100%;
+  margin-top: 3em;
+  padding: 1em;
+  border: 1px solid hsla(0, 100%, 40%, 0.8);
+  color: hsla(0, 100%, 40%, 0.8);
+  font-weight: bold;
+}
+
+.gift-card-text-div button:hover {
+  color: #fff;
+  background-color: hsla(0, 100%, 40%, 0.8);
+}
+
+.gift-card-text-div a:hover {
+  color: #fff;
+}
+
+.hov:hover {
+  border: 1px solid hsla(0, 100%, 40%, 0.8);
+}
+/* -----END OF GIFT CARD CONTAINER SECTION-------- */
+
+/* -----START OF PEOPLE-LOVE SECTION-------- */
+
+.people-love-section {
+  text-align: center;
+  margin-bottom: 6em;
+}
+
+.people-love-section h2 {
+  margin-bottom: 2em;
+}
+
+.people-love-section span {
+  color: red;
+}
+
+.people-love-section h6 {
+  text-align: left;
+  font-size: 0.8em;
+  font-weight: 500;
+  padding-bottom: 1em;
+}
+
+.people-love-section-img {
+  width: 100%;
+  height: 15em;
+  margin-bottom: 1em;
+}
+
+.container-people-love {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 1em;
+}
+
+.container-people-love header {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 0.5em;
+  padding-bottom: 1em;
+}
+
+.container-people-love header h6 {
+}
+
+.profile-img {
+  height: 2em;
+  width: 2em;
+  border-radius: 50%;
+}
+
+.first,
+.second,
+.third {
+  height: 27em;
+  width: 25em;
+box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+  padding: 1em;
+}
+
+.first p,
+.second p,
+.third p {
+  text-align: left;
+  font-size: 0.9em;
+  font-weight: 400;
+}
+
+/* -----END OF PEOPLE-LOVE SECTION-------- */
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: gray;
+}
+
+.container-one {
+  text-align: center;
+  padding-top: 1em;
+}
+
+.container-one div {
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+}
+
+.container-one div p {
+  padding-bottom: 1em;
+}
+
+.container-two {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  width: 100%;
+}
+
+.beleive {
+  padding-top: 2em;
+}
+
+.beleive h3 {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+
+.beleive p {
+  margin-bottom: 1.3em;
+}
+
+hr {
+  width: 25%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 0.5em;
+  background-color: gray;
+  color: gray;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+  margin-top: 2em;
+  margin-bottom: 1.5em;
+}
+
+.footer-links a {
+  color: #fff;
+  font-size: 0.9em;
+}
+
+.location {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.location-email {
+  padding-top: 1.5em;
+  margin-bottom: 1em;
+}
+
+.location .location-email a {
+  text-decoration: none;
+  font-size: 0.8em;
+  color: #fff;
+}
+
+.address p {
+  font-size: 0.8em;
+}
+
+.location-email p,
+.address p {
+  text-align: left;
+}
+
+.socials {
+  margin-top: 1.5em;
+}
+
+.socials a {
+  padding: 0.2em;
+  font-size: 2em;
+  font-weight: 600;
+}
+
+.email {
+  margin-top: 1em;
+  margin-bottom: 6em;
+}
+
+.email h4 {
+  text-align: left;
+  font-size: 0.8em;
+  padding-bottom: 1em;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+form input {
+  padding: 1em;
+  border: none;
+  width: 20em;
+}
+
+form button {
+  padding: 1em;
+  background-color: hsla(0, 100%, 40%, 0.8);
+  color: #fff;
+  border: none;
+  width: 20em;
+}
+
+.footer-container-three {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 1);
+  width: 100%;
+  height: 100%;
+  padding-bottom: 3em;
+  /* margin-bottom: 6em; */
+}
+
+.copyright-text p {
+  color: #fff;
+  padding: 1em 1em;
+  font-size: 0.7em;
+}
+
+.policies a {
+  text-decoration: none;
+  color: #fff;
+  padding: 1em 1em;
+  font-size: 0.7em;
+}
+/* -----END OF FOOTER-------- */
